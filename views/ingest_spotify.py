@@ -158,7 +158,6 @@ with st.form(key="new_playlist_form"):
     )
     new_pid = st.text_input(
         "Sample Playlist ID: 3C5CqRlEoisNEusrgg7kEX",
-        placeholder="3C5CqRlEoisNEusrgg7kEX",
         key="pid_input"
     )
     st.form_submit_button("Load full playlist to Pinecone", on_click=load_playlist)
