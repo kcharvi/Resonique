@@ -51,16 +51,36 @@ st.markdown("""
     .feature-header h3 {
         margin: 0;
     }
+    .workflow-container {
+        background-color: white;
+        padding: 2rem;
+        border-radius: 1rem;
+        margin: 2rem 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    .workflow-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+        margin: 1rem auto;
+        display: block;
+    }
+    .workflow-container img {
+        max-width: 95%;
+        margin: 1rem auto;
+        border-radius: 0.5rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
     </style>
 """, unsafe_allow_html=True)
 
-st.title("🎵 Welcome to Resonique")
+st.title("🎵 Resonique")
 st.markdown("""
     <div style='text-align: center;'>
         <h2 style='color: #FF4B4B;'>Let Your Surroundings Pick the Beat!</h2>
         <p style='font-size: 1.2rem; color: #666;'>
-            Struggling to find the perfect music or background score for the moment? Say goodbye to 
-            <br>
+            Struggling to find the perfect music for the moment? Say goodbye to 
             endless scrolling and let Resonique do the magic <span class="material-icons">auto_awesome</span> <br>
             <span class="material-icons">search</span> Search audio clips that match your exact emotion in seconds!
             <br>
@@ -170,6 +190,20 @@ st.markdown("""
         </ol>
     </div>
 """, unsafe_allow_html=True)
+
+
+st.markdown(
+    """
+        <div class='workflow-container'>
+            <h2 style='color: #FF4B4B; text-align: center;'>How Resonique Works</h2>
+            <p style='color: #666; margin-bottom: 1.5rem;'>
+                A comprehensive view of our intelligent music recommendation system
+            </p>
+        </div>
+    """, unsafe_allow_html=True
+)
+
+st.image("assets/Resonique_working_flow.png",  use_container_width=True)
 
 st.markdown("---")
 st.markdown("""
