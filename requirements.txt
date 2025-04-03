@@ -13,5 +13,3 @@ librosa
 ipywidgets
 wav2clip
 matplotlib
-json
-functools
