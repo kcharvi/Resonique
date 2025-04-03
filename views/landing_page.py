@@ -203,7 +203,7 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-st.image("assets/Resonique_working_flow.png",  use_container_width=True)
+st.image("assets/Resonique_workflow.png",  use_container_width=True)
 
 st.markdown("---")
 st.markdown("""
