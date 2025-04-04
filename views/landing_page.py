@@ -1,4 +1,7 @@
 import streamlit as st
+import os
+
+image_path = os.path.join(os.getcwd(), "assets", "Resonique_workflow.png")
 
 st.markdown("""
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -203,7 +206,7 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-st.image("assets/Resonique_workflow.png",  use_container_width=True)
+st.image(image_path,  use_container_width=True)
 
 st.markdown("---")
 st.markdown("""
