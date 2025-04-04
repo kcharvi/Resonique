@@ -138,6 +138,18 @@ bucket_name = "your_supabase_bucket_name"
 streamlit run streamlit_app.py
 ```
 
+## 🌐 **Preview of Resonique**
+
+Here's a quick glimpse of what you can expect on the Resonique web app:
+
+![Resonique](assets/Resonique_website_1.png)
+
+![Resonique](assets/Resonique_website_2.png)
+
+![Resonique](assets/Resonique_website_3.png)
+
+![Resonique](assets/Resonique_website_4.png)
+
 ---
 
 ## **Future Enhancements**
