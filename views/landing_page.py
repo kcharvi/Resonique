@@ -213,5 +213,13 @@ st.markdown("""
     <div style='text-align: center;'>
         <p style='color: #FF4B4B;'>Ready to explore the emotional side of music?</p>
         <p style='color: #666; font-weight: bold;'>Made by Charvi | Last Updated: April, 2025</p>
+        <p>
+            <a href='https://kcharvi.github.io/' target='_blank' style='margin-right: 25px; text-decoration: none; color: inherit;'>
+                <span class="material-icons" style="vertical-align: middle;">language</span> Portfolio
+            </a>
+            <a href='https://www.linkedin.com/in/k-charvi/' target='_blank' style='text-decoration: none; color: inherit;'>
+                <span class="material-icons" style="vertical-align: middle;">link</span> LinkedIn
+            </a>
+        </p>
     </div>
-""", unsafe_allow_html=True) 
+""", unsafe_allow_html=True)
