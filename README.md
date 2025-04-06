@@ -6,6 +6,8 @@ _Retrieve audio clips that match your exact emotion in seconds!_
 
 Checkout the app: https://resonique.streamlit.app/
 
+Understand on Kaggle: https://www.kaggle.com/code/charvik/emotional-audio-search-vector-embeddings-mpnet
+
 ## **About Resonique**
 
 In a world of limitless music, finding the right song for your mood can be overwhelming. **Resonique** simplifies this by **understanding your vibe through images, text, or emotions** and delivering the perfect song. Whether you're looking for **relaxing evening tunes, high-energy beats, or immersive soundscapes**, Resonique ensures that music resonates with your emotions.
